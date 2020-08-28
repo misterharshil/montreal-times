@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Fresca);
+body{
+background:#e9ead6;	
+margin: 0 0 0 0;
+	}
+
+p {
+    color: black;
+}
+.profile{
+	width:25em;
+	height:30em;
+	background:#FFF;
+	position:absolute;
+	left:0;
+	right:130em;
+	top:-28em;
+	bottom:0;
+	margin:auto;
+	border-radius:0.51em;
+	box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+	}
+.content{
+	width:25em;
+	height:30em;
+	}
+.profilePic{
+	width:12em;
+	height:12em;
+	margin:auto;
+	margin-top:-6em;
+	background:url(prof.jpg);
+	background-size:cover;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 4pt #FFF;
+	}	
+.profile h3{
+color:#000;	
+font-family: 'Fresca', sans-serif;
+text-align:center;
+font-size:1.6em;
+margin-bottom:0;
+}
+.profile h4{
+color:#ff33eb;	
+font-family: 'Fresca', sans-serif;
+text-align:center;
+font-size:1em;
+margin-top:0.5em;
+}		
+
+.rates{
+position:absolute;
+width:25em;
+height:8em;
+bottom:-0.2em;
+background:#fff;	
+border-bottom-left-radius: 0.51em;
+border-bottom-right-radius: 0.51em;
+overflow:hidden;
+	}
+
+.box{
+width:8.33333333333em;
+height:8.33333333333em;
+float:left;	
+overflow:hidden;
+position:relative;
+	}	
+svg{
+position:absolute;	
+	}
+.iconCon{
+position:relative;
+width:5em;
+height:5em;
+margin:auto;
+z-index:999;
+    top: 2em;
+	}
+
+.counter {
+    color: black;
+    background-color: white;
+}
+.box h4{
+color:#000;
+font-size:2em;
+margin-top:0;
+z-index:999999;	
+	}	
+.iconCon .icon{
+	width:3em;
+height:3em;
+left:0;
+right:0;
+top:0;
+bottom:0;
+margin:auto;
+fill:#000;
+z-index:999;
+	}
+	
+.h4h{
+position:absolute;	
+left:0;
+right:0;
+margin:auto;
+	}		
+.box:hover{
+box-shadow:0px 0px 0px 1px rgba(0,0,0,0.3);	
+	}	
+
+.box:hover{
+	cursor:pointer;
+}
+.boxview:hover .icon{
+	fill:#3399FF;
+	}
+.boxbuddy:hover .icon{
+	fill:#FFCC99;
+	}	
+.proPage{
+position:absolute;
+top:1em;
+height:3em;
+width:3em;	
+	}
+.ExitPage{
+	left:1em;
+	}
+.homePage{
+right:1em;	
+	}		
+.proPage .icon{
+	height:2em;
+width:2em;
+left:0;right:0;top:0;bottom:0;margin:auto;
+fill:#03315c;
+	}	
+.proPage .icon:hover{
+	fill:#1c69b0;
+	cursor:pointer;
+
+	}	
+.proPage:hover{
+	
+	}
