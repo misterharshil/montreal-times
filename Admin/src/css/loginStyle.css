@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+ .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.login-page .form {
+    position: relative;
+    z-index: 1;
+    border-radius:15px;
+    border:1px dotted gray;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    background: #76b852; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+    background: -moz-linear-gradient(right, #76b852, #8DC26F);
+    background: -o-linear-gradient(right, #76b852, #8DC26F);
+    background: linear-gradient(to left, #76b852, #8DC26F);
+
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-page .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login-page .form #loginBtn {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 89%;
+    display:block;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.login-page .form #loginBtn:hover,.login-page .form #loginBtn:active,.login-page .form #loginBtn:focus {
+    background: #43A047;
+}
+.login-page .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.login-page .form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.login-page .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.login-page .container:before,.login-page  .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.login-page .container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.login-page .container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.login-page .container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.login-page .container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.login-page .container .info span .fa {
+    color: #EF3B3A;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+}
+.nav-item {
+    list-style: none;
+    margin-left: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+}
+.nav-link:hover{
+    color:dodgerblue;
+}
+.header {
+    padding: 14px;
+    box-shadow: 1px 3px 4px gray;
+}
+.table-container {
+    margin: 0 auto;
+    width: 70%;
+}
+table.data-table {
+    border: 1px dotted gray;
+    padding: 1px;
+    margin: 50px auto;
+}
+.data-table thead {
+    background: dimgrey;
+    color: white;
+}
+.data-table thead td {
+    padding: 10px;
+    width: 6%;
+}
+.data-table td{
+    text-align: center;
+}
+.data-table tbody tr:nth-child(even) {
+    background: beige;
+}
+.data-table tbody tr:nth-child(odd) {
+    background: #d9d9c8;
+}
+.data-table tbody tr td {
+    padding: 11px;
+}
+a.addnew {
+    background: #9ee19e;
+    padding: 9px;
+    border-radius: 8px;
+    border: 1px dotted black;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 2px 5px darkgrey;
+    margin-left: 15%;
+}
+h1.page-title {
+    text-align: center;
+}
+h1.page-title:after {
+    background: red;
+    position: relative;
+    top: 2px;
+    width: 23px;
+    color: red;
+    height: 1px;
+}
+
+.form-group {
+    margin: 0 auto;
+    width: 71%;
+}
+.newsImagePreviewTable{
+    max-width:100px
+}
+.form-element input[type="text" i], .form-element select {
+    width: 363px;
+    height: 35px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+}
+.form-element {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: flex-start;
+     margin-bottom: 25px;
+ }
+.form-element label {
+    flex-grow: 1;
+    max-width: 100px;
+}
+textarea#shortdescription {
+    width: 363px;
+    height: 110px;
+    resize: none;
+    padding:6px 16px;
+    box-sizing: border-box;
+}
+.tox-notifications-container{
+    display:none !important;
+}
+.imgPreviewDiv img{
+    max-width:56%;
+}
